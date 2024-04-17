@@ -1,0 +1,238 @@
+html 
+{
+  scroll-behavior: smooth;
+}
+.menu
+{
+    position: absolute;
+    top: 5%;
+    margin-right: 30px;
+}
+.home
+{
+    background-image: url("images/ground.JPG");
+    background-size: cover;
+    height: 100vh;
+    h1,h2,h3
+    {
+    position:absolute;    
+    left:40%;
+    }
+    .menu
+    {
+    position:absolute;    
+    left:60%;top:5%;
+    }
+    .menu a
+    {
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(249, 245, 245);
+    }
+    p
+    {
+    position:absolute;    
+    left:40%;top:46%;
+    font-size: 20px;
+    }
+    .logo img
+    {
+    border-radius: 50%;
+    border:2px solid rgb(13, 9, 9);
+    width: 18%;
+    left:20%;top:24%;
+    background-color: black;
+    position: absolute;
+    }
+    .profile1
+    {
+    left:25%;
+    position:absolute; 
+    top:66%;
+    }
+    .profile
+    {
+    left:28%;
+    position:absolute; 
+    top:65%;
+    }
+}
+
+.about
+{
+    background-image: url("images/ground.JPG");
+    background-size: cover;
+    height: 100vh;
+
+    img
+    {
+        position: absolute;
+        top:126%;left:10%;
+    }
+    h1
+    {
+        font-size: 40px;
+        top:103%;position: absolute;left:44%;
+    }
+    p
+    {
+            top:125%;left:40%;right:5%;
+            position: absolute;
+            font-size: 25px;
+            text-align: justify;
+    }
+    .homeback
+    {
+            left:92%;
+            position: absolute;top:103%;
+    }
+}
+
+.skills
+{
+    background-image: url("images/ground.JPG");
+    background-size: cover;
+    height: 100vh;
+         h1
+        {
+            font-size: 40px;
+            margin-top:3% ;position: absolute;left:44%;
+        }
+        .skill1
+        {
+            border: 3px solid rgb(16, 12, 12);
+            position: absolute;
+            left:8%;right:70%;margin-top:10%;
+            font-size: 20px;
+            text-align: justify;
+        }
+        .skill2
+        {
+            border: 3px solid rgb(16, 12, 12);
+            position: absolute;
+            left:38%;right:40%;margin-top:10%;
+            font-size: 20px;
+            text-align: justify;
+        }
+        .skill3
+        {
+            border: 3px solid rgb(16, 12, 12);
+            position: absolute;
+            left:70%;right:8%;margin-top:10%;
+            font-size: 20px;
+            text-align: justify;
+        }
+        img
+        {
+            display:block;
+            margin:0 auto;
+        }
+        .homeback
+        {
+            left:92%;
+            position: absolute;margin-top:2%;
+        }
+}
+
+.projects
+{
+    background-image: url("images/ground.JPG");
+    background-size: cover;
+    height: 100vh;
+    h1
+        {
+            font-size: 40px;
+            margin-top:3%;position: absolute;left:44%;
+        }
+        .pro1
+        {
+            border: 3px solid rgb(16, 12, 12);
+            position: absolute;
+            left:8%;right:70%;margin-top:10%;
+            font-size: 20px;
+            text-align: justify;
+        }
+        .pro2
+        {
+            border: 3px solid rgb(16, 12, 12);
+            position: absolute;
+            left:38%;right:40%;margin-top:10%;
+            font-size: 20px;
+            text-align: justify;
+        }
+        .pro3
+        {
+            border:3px solid rgb(16, 12, 12);
+            position: absolute;
+            left:70%;right:8%;margin-top:10%;
+            font-size: 20px;
+            text-align: justify;
+        }
+        img
+        {
+            display:block;
+            margin:0 auto;
+        }
+        .homeback
+        {
+            left:92%;
+            position: absolute;margin-top:3%;
+        }
+}
+
+.contact
+{
+    background-image: url("images/ground.JPG");
+    background-size: cover;
+    height: 100vh;
+    h1
+        {
+            font-size: 40px;
+            margin-top:3%;position: absolute;left:44%;
+        }
+        h2,p
+        {
+            position: absolute;
+            margin-top:15%;right:50%;left:10%;
+        }
+        .msg
+        {
+            left:60%;margin-top:8%;
+            position: absolute;
+        }
+        input
+        {
+            width: 300px;
+            height:50px;
+            background-color: rgba(255, 235, 205, 0);
+            border: 2px solid rgba(16, 14, 14, 0.986);
+        }
+        input::placeholder
+        {
+            color: rgba(0, 0, 0, 0.707);
+        }
+        button
+        {
+            left:25%;position: absolute;
+            margin-top:35%;
+            width: 150px; height: 40px;
+            background-color: rgb(165, 69, 13);
+            border: 2px solid rgba(16, 14, 14, 0.986);;
+        }
+        .homeback
+        {
+            left:92%;
+            position: absolute;margin-top:2%;
+        }
+        h4
+        {
+            margin-top: 43%;
+            position: absolute;
+            border: 2px solid black;
+            width:98%;
+            height: 10%;
+            color: white;
+            background-color: black;
+            font-size: 20px;
+        }
+}
