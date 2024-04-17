@@ -10,7 +10,7 @@ html
 }
 .home
 {
-    background-image: url("images/ground.JPG");
+    background-image: url("ground.JPG");
     background-size: cover;
     height: 100vh;
     h1,h2,h3
@@ -60,7 +60,7 @@ html
 
 .about
 {
-    background-image: url("images/ground.JPG");
+    background-image: url("ground.JPG");
     background-size: cover;
     height: 100vh;
 
@@ -90,7 +90,7 @@ html
 
 .skills
 {
-    background-image: url("images/ground.JPG");
+    background-image: url("ground.JPG");
     background-size: cover;
     height: 100vh;
          h1
@@ -136,7 +136,7 @@ html
 
 .projects
 {
-    background-image: url("images/ground.JPG");
+    background-image: url("ground.JPG");
     background-size: cover;
     height: 100vh;
     h1
@@ -182,7 +182,7 @@ html
 
 .contact
 {
-    background-image: url("images/ground.JPG");
+    background-image: url("ground.JPG");
     background-size: cover;
     height: 100vh;
     h1
